@@ -1,4 +1,4 @@
-# maximum length substring with two occurrences
+# maximum length substring with two occurrences.
 
 class SlidingWindow:
     def maximum_length_substring(self, string: str) -> int:
