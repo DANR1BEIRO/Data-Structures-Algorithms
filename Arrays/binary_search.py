@@ -8,7 +8,7 @@ def binary_search(arr, target):
         mid = (left + right) // 2
 
         if arr[mid] == target:
-            print(f"Steps: {steps}")
+            print(f"Target was found in index {target} in {steps} steps.")
             return mid
         
         if arr[mid] > target:
